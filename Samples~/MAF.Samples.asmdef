@@ -1,0 +1,16 @@
+{
+    "name": "MAF.Samples",
+    "rootNamespace": "MAF.Samples",
+    "references": [
+        "MAF.Runtime" // Reference your framework's runtime assembly
+    ],
+    "includePlatforms": [], // Include all platforms by default for samples
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true, // Often true for samples so they can be easily used
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
