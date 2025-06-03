@@ -1,0 +1,25 @@
+{
+  "name": "com.evanwong.myawesomeframework",
+  "version": "1.0.0",
+  "displayName": "My Awesome Framework",
+  "description": "A reusable framework with event system, FSM, object pooling, and more to accelerate Unity game development.",
+  "unity": "6000.0.28",            
+  "unityRelease": "0f1",
+  "documentationUrl": "https://github.com/YourUsername/MyAwesomeFramework/blob/main/Documentation~/Index.md",
+  "changelogUrl": "https://github.com/YourUsername/MyAwesomeFramework/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/YourUsername/MyAwesomeFramework/blob/main/LICENSE",
+  "keywords": [
+    "framework",
+    "unity",
+    "tools",
+    "events",
+    "fsm",
+    "objectpool"
+  ],
+  "author": {
+    "name": "EvanWong",
+    "email": "yufenghuang009@gmail.com",
+    "url": "https://github.com/EvanWonghere"
+  },
+  "type": "library"
+}
