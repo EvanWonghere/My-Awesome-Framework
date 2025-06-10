@@ -8,9 +8,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - (List new features or improvements currently in development for the next release)
+- **Audio Management Module:**
+  - Added `AudioManager` singleton for handling BGM and SFX.
+  - Integrated with the Addressables system for asynchronous, on-demand audio loading.
+  - Implemented a preloading system (`PreloadAudioClip` and `ReleasePreloadedAudioClip`) for critical, low-latency sounds.
+  - Added separate global volume controls for BGM and SFX.
+- **Scene Management Module:**
+  - Added `SceneLoader` singleton for robust asynchronous scene loading.
+  - Implemented progress, completion, cancellation, and unload events to manage loading screens and game state.
+  - Added `UnloadSceneThenLoadScene` for advanced scene management sequences.
+  - Created a `SceneEnumGenerator` editor tool (`Tools/MAF/Generate Scene Enum`) for type-safe scene selection in code and the Inspector.
+- Added new Samples, Tests, and Documentation for the Audio and Scene Management modules.
 
 ### Changed
 - (List changes in existing functionality)
+- Refactored `SceneLoader` to be more robust with pre-load validation, cancellation support, and better lifecycle management.
 
 ### Deprecated
 - (List features soon to be removed)
