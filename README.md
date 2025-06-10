@@ -31,9 +31,8 @@ This framework is distributed as a Unity Package Manager (UPM) package. To insta
 4.  Select **"Add package from git URL..."**
 5.  Enter the following URL:
     ```
-    [https://github.com/](https://github.com/)[Your GitHub Username/Repo Name].git
+    https://github.com/EvanWonghere/My-Awesome-Framework.git
     ```
-    (Replace `[Your GitHub Username/Repo Name]` with the actual URL of your framework's GitHub repository)
 6.  You can also specify a particular version or branch by appending `#` followed by the tag/branch name (e.g., `#v1.0.0` or `#main`).
 7.  Click **Add**.
 
@@ -57,7 +56,7 @@ Each module is designed to be intuitive and easy to integrate.
 
 ## Contributing
 
-Currently, this project is maintained by [Your Name/Username]. If you'd like to contribute, please feel free to fork the repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
+Currently, this project is maintained by EvanWong. If you'd like to contribute, please feel free to fork the repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
